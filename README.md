@@ -36,12 +36,12 @@ The original version was implemented by @carlgogo, and is available here: https:
 
 ## Installation
 
-It is recommended to install this package either by forking it or direct download.
-cd inside the repository, then simply run:
+It is recommended to install this package by direct download.
+Once downloaded, cd inside the repository, then simply run:
 ```
 python setup.py install
 ```
-If you plan to later modify the package to meet your needs, it is recommende to run instead:
+If you plan to later modify the package to meet your needs, it is recommended to run instead:
 ```
 python setup.py develop
 ```
