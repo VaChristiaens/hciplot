@@ -29,10 +29,24 @@ and relies on the ``matplotlib`` and ``HoloViews`` libraries and
 
 * Save to disk a 3d array as an animation (gif or mp4).
 
+## Disclaimer
+
+This is an altered version of the original version of hciplot, with new added features only added to meet personal requirements.
+The original version was implemented by @carlgogo, and is available here: https://github.com/carlgogo/hciplot
 
 ## Installation
 
-You can install ``HCIplot`` with ``pip``:
+It is recommended to install this package either by forking it or direct download.
+cd inside the repository, then simply run:
+```
+python setup.py install
+```
+If you plan to later modify the package to meet your needs, it is recommende to run instead:
+```
+python setup.py develop
+```
+
+You can also install the original (@carlgogo's) version of  ``HCIplot`` with ``pip``:
 
 ```
 pip install hciplot
